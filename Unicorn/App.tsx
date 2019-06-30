@@ -1,4 +1,5 @@
 import React from 'react';
+import ReactDOM from 'react-dom';
 import Prufa from './components/Prufa';
 
 import { StyleSheet, Text, View } from 'react-native';

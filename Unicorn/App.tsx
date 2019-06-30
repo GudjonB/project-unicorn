@@ -1,9 +1,12 @@
 import React from 'react';
+import Prufa from './components/Prufa';
+
 import { StyleSheet, Text, View } from 'react-native';
 
 export default function App() {
   return (
     <View style={styles.container}>
+      <Text> prufa 2 </Text>
       <Text>Open up App.tsx to start working on your app!</Text>
     </View>
   );

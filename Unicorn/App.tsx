@@ -5,10 +5,13 @@ import { StyleSheet, Text, View } from 'react-native';
 
 export default function App() {
   return (
+    <div>
+    <Prufa></Prufa>
     <View style={styles.container}>
-      <Text> prufa 2 </Text>
+      <Text>prufa 2</Text>
       <Text>Open up App.tsx to start working on your app!</Text>
     </View>
+    </div>
   );
 }
 

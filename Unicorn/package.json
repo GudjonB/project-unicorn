@@ -1,21 +1,29 @@
 {
+  "name": "react-native-bluetooth-serial",
+  "version": "1.0.0-rc1",
+  "description": "'Bluetooth serial for react native'",
+  "main": "index.js",
   "scripts": {
-    "start": "react-native start",
-    "android": "react-native run-android",
-    "ios": "react-native run-ios",
-    "web": "expo start --web"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rusel1989/react-native-bluetooth-serial.git"
+  },
+  "keywords": [
+    "bluetooth",
+    "react-native"
+  ],
+  "author": "Jakub Martyčák <martycakjakub@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rusel1989/react-native-bluetooth-serial/issues"
+  },
+  "homepage": "https://github.com/rusel1989/react-native-bluetooth-serial#readme",
   "dependencies": {
-    "expo": "^33.0.7",
-    "expo-cli": "^2.21.2",
-    "react": "16.8.3",
-    "react-dom": "^16.8.6",
-    "react-native": "0.59.8",
-    "react-native-bluetooth-serial": "^1.0.0-rc1",
-    "react-native-web": "^0.11.4"
+    "buffer": "^4.6.0"
   },
-  "devDependencies": {
-    "babel-preset-expo": "^5.1.1"
-  },
-  "private": true
+  "peerDependencies": {
+    "react-native": ">=0.40"
+  }
 }
